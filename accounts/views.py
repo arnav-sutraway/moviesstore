@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.contrib.auth import login as auth_login, authenticate
+from django.contrib.auth import login as auth_login, logout as auth_logout, authenticate
 from .forms import CustomUserCreationForm, CustomErrorList
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
@@ -27,7 +27,7 @@ def login(request):
             return render(request, 'accounts/login.html',{'template_data': template_data})
         else:
             auth_login(request, user)
-            return redirect('accounts.login')
+            return redirect('home.index')
 
 def signup(request):
     template_data = {}
