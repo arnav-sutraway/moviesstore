@@ -5,7 +5,7 @@ Movies Store is a full-stack web application built with Django that simulates an
 This project was developed as part of **CS 2340: Objects and Design** at the Georgia Institute of Technology.
 
 [![Watch the video](moviesstore/static/img/logo.png)](https://youtu.be/KsbuA9okiGo)
-**[⟵ Click for demo](https://youtu.be/KsbuA9okiGo)**
+**[Click for demo ⮥](https://youtu.be/KsbuA9okiGo)**
 
 ---
 
